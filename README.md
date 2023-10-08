@@ -6,7 +6,7 @@ The goal of this project was to construct a multiple linear regression and rando
 ## Business Understanding
 According to salary.com, the average salary for a taxi driver in New York City is approximately $45,000 per year. The average salary of all employees in New York City, New York, is approximately $84,500 (salary.com). The salary of a taxi driver is significantly lower than most New Yorkers, and higer tips can help supplement their income.
 ## Data Understanding
-The NYC Taxi and Limousine Commission data came from NYC.gov. In this dataset, there are approximately 408,000 unique trips and 18 features. Features in this dataset include information on trip duration adn destination, the vendor, toll information, and payment type. Features were engineered to represent rides that were taken during rush hour, and redundant columsn were dropped or reformated for use in the model. 
+The NYC Taxi and Limousine Commission data came from NYC.gov. In this dataset, there are approximately 408,000 unique trips and 18 features. Features in this dataset include information on trip duration adn destination, the vendor, toll information, and payment type. Features were engineered to represent rides that were taken during rush hour, and redundant columns were dropped or reformated for use in the model. 
 ## Modeling and Evaluation
 The random forest model was used to determine feature importance in if the customer would tip generously. The following plot shows htat the three most important features in separating a generous tipper from a non-generous tipper are trip duration, trip distance, and the cost of the ride. The final model had an accuracy score of 86% and a precision score of 72%.
 
