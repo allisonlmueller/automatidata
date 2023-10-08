@@ -8,7 +8,7 @@ According to salary.com, the average salary for a taxi driver in New York City i
 ## Data Understanding
 The NYC Taxi and Limousine Commission data came from NYC.gov. In this dataset, there are approximately 408,000 unique trips and 18 features. Features in this dataset include information on trip duration adn destination, the vendor, toll information, and payment type. Features were engineered to represent rides that were taken during rush hour, and redundant columns were dropped or reformated for use in the model. 
 ## Modeling and Evaluation
-The random forest model was used to determine feature importance in if the customer would tip generously. The following plot shows htat the three most important features in separating a generous tipper from a non-generous tipper are trip duration, trip distance, and the cost of the ride. The final model had an accuracy score of 86% and a precision score of 72%.
+The random forest model was used to determine feature importance in if the customer would tip generously. The following plot shows that the three most important features in separating a generous tipper from a non-generous tipper are trip duration, trip distance, and the cost of the ride. The final model had an accuracy score of 86% and a precision score of 72%.
 
 <img width="562" alt="Screenshot 2023-10-07 at 6 51 12 PM" src="https://github.com/allisonlmueller/automatidata/assets/147258601/165d972c-815a-4537-b41d-8ba839fe1689">
 
